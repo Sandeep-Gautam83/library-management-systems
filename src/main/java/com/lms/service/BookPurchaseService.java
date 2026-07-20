@@ -1,10 +1,10 @@
 package com.lms.service;
 
 import com.lms.entity.BookPurchase;
-
 import java.util.List;
 
 public interface BookPurchaseService {
+    void processPurchaseWithPayment(Long studentId, Long bookId, Double amount, String paymentId);
 
     BookPurchase savePurchase(BookPurchase purchase);
 
@@ -19,7 +19,4 @@ public interface BookPurchaseService {
     boolean hasPurchasedSuccess(Long studentId, Long bookId);
 
     void processPurchase(Long studentId, Long bookId);
-
-    void processPurchaseWithPayment(Long studentId, Long bookId, Double amount, String s);
 }
-
