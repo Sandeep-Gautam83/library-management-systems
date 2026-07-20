@@ -213,6 +213,83 @@ The Admin Panel provides complete control over the entire library.
 
 ---
 
+# 🏠 Main Screen (Home Page)
+
+The Main Screen is the entry point of the Library Management System. It provides an attractive and user-friendly interface for both students and administrators.
+
+## Main Screen Features
+
+- 📚 Modern and Responsive Home Page
+- 🔐 Student Login
+- 📝 Student Registration
+- 👨‍💼 Admin Login
+- 📖 Browse Available Books
+- 🔍 Search Books
+- 📂 Book Categories
+- ⭐ Featured & Popular Books
+- 📢 Latest Announcements
+- 📊 Library Statistics
+- 📱 Mobile-Friendly Design
+- 📞 Contact Information
+- ❓ About Library Section
+
+---
+
+# 🧭 System Flow
+
+```
+Main Screen
+      │
+      ├──────────────┐
+      │              │
+Student Login    Admin Login
+      │              │
+      ▼              ▼
+Student Dashboard   Admin Dashboard
+      │              │
+      │              ├── Student Management
+      │              ├── Book Management
+      │              ├── Issue Book
+      │              ├── Return Book
+      │              ├── Fine Management
+      │              ├── Payment Management
+      │              ├── Chat Management
+      │              ├── Notification Management
+      │              └── Reports
+      │
+      ├── View Books
+      ├── Search Books
+      ├── Issue Book
+      ├── Return Book
+      ├── Purchase Books
+      ├── Pay Fine
+      ├── Chat with Admin
+      ├── Notifications
+      └── Profile Management
+```
+
+---
+
+# 🖼️ Project Screens
+
+- 🏠 Main Screen
+- 🔐 Login Page
+- 📝 Registration Page
+- 👨‍🎓 Student Dashboard
+- 👨‍💼 Admin Dashboard
+- 📚 Book Management
+- 📖 Book Details
+- 📄 PDF Reader
+- 📂 Categories
+- 📚 Issued Books
+- 📚 Returned Books
+- 💰 Fine Management
+- 💳 Payment Page
+- 💬 Chat System
+- 🔔 Notifications
+- 👤 Profile
+- ⚙️ Settings
+
 # 👨‍💻 Author
 
 **Sandeep Gautam**
