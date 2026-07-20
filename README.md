@@ -319,7 +319,7 @@ Login Account ( Registered Student Login Page )
 <img width="919" height="948" alt="image" src="https://github.com/user-attachments/assets/c1a71690-9e80-497d-a75b-914522ff2c58" />
 
 # Library Management System STUDENT CONTROL SYSTEM
-LMS - Student Dashboard ( Home Page )
+LMS - Student Dashboard ( Student Home Page )
 1.<img width="1088" height="915" alt="image" src="https://github.com/user-attachments/assets/efcc2e64-b311-4204-80df-b094351b5120" />
 2.<img width="1037" height="960" alt="image" src="https://github.com/user-attachments/assets/e4ba701c-8d0d-41c3-8631-0da0b216b8cc" />
 <img width="1052" height="953" alt="image" src="https://github.com/user-attachments/assets/11c54c0a-c9d6-4abf-b023-bd93d28ad72c" />
@@ -328,7 +328,7 @@ LMS - Student Available Books
 <img width="1903" height="957" alt="image" src="https://github.com/user-attachments/assets/11ae9d34-0d73-436d-b911-48a9d9b9a186" />
 LMS - Student Issued Book List
 <img width="1884" height="958" alt="image" src="https://github.com/user-attachments/assets/1f4c737c-392f-4fff-ac7a-cee5252ead14" />
-LMS - Student Chat Dashboard
+LMS - Student Chat Dashboard ( Student <-> Admin or Admin <-> Student )
 <img width="1245" height="959" alt="image" src="https://github.com/user-attachments/assets/8b899fb9-1627-488c-9cba-238896af0519" />
 LMS - AI Chat Dashboard
 <img width="1919" height="960" alt="image" src="https://github.com/user-attachments/assets/e347ed66-27dc-4738-a13c-fd1462076d6a" />
@@ -336,7 +336,29 @@ LMS - Student Profile
 <img width="1907" height="952" alt="image" src="https://github.com/user-attachments/assets/3ea0788a-3227-4099-9e25-5fbdf61af8da" />
 LMS - Logout 
 
-
+# Library Management System ADMIN CONTROL SYSTEM
+LMS - Admin Dashboard ( Admin Home Page )
+1.<img width="1462" height="956" alt="image" src="https://github.com/user-attachments/assets/17c5ca5a-d305-4e81-b84e-666d7e068050" />
+2.<img width="1467" height="958" alt="image" src="https://github.com/user-attachments/assets/452d3c2f-fb18-498d-aaa6-2187cdfaf2f7" />
+LMS - Add New Book ( Admin Only Upload )
+<img width="1463" height="945" alt="image" src="https://github.com/user-attachments/assets/dd818592-2a87-4045-929b-0aa06896ac40" />
+LMS - Book Managment ( Delete , Edit )
+1.<img width="1464" height="955" alt="image" src="https://github.com/user-attachments/assets/5d4afd10-af75-4670-b45f-7cd44b3198d1" />
+LMS - Book Edit 
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/77f2ba91-c784-4396-8804-b4144d37cc15" />
+LMS- Pending Student Registration Approve List ( New Registration Aprrove By Admin )  
+<img width="1465" height="935" alt="image" src="https://github.com/user-attachments/assets/f4f02c09-4e4e-4569-9af1-e75bb19289f4" />
+LMS - Student Issue Book List Page
+<img width="1466" height="958" alt="image" src="https://github.com/user-attachments/assets/84402096-d033-45f7-aa73-5712c5aeccf7" />
+LMS- Return Book Page 
+<img width="1462" height="953" alt="image" src="https://github.com/user-attachments/assets/b30c5f14-7813-40f7-9d9c-eecf7f5d0a4a" />
+LMS - Fine Management Page
+<img width="1467" height="939" alt="image" src="https://github.com/user-attachments/assets/f0e96f90-b34e-4c48-b4bc-623c8abaaf76" />
+LMS - Approve Student Information List Page 
+<img width="1467" height="952" alt="image" src="https://github.com/user-attachments/assets/7d07664c-c498-49e3-8ebe-f9e93652a489" />
+LMS - Admin Chat Dashboard Page ( Admin <-> Student or Student <-> Admin ) 
+<img width="1468" height="958" alt="image" src="https://github.com/user-attachments/assets/33ff5f89-3c44-48f6-bdb5-71b9d60ced9c" />
+LMS -  Logout
 
 **Sandeep Gautam**
 
