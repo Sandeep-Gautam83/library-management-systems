@@ -43,12 +43,22 @@ public class BookPurchaseServiceImpl implements BookPurchaseService {
         if (alreadyOwned) {
             throw new IllegalStateException("Duplicate transaction: Student has already successfully purchased this book.");
         }
+
+        if (purchase.getFullName() == null || purchase.getBookName() == null) {
+            User student = userRepository.findById(purchase.getStudentId())
+                    .orElseThrow(() -> new IllegalArgumentException("Student not found ID: " + purchase.getStudentId()));
+            Book book = bookRepository.findById(purchase.getBookId())
+                    .orElseThrow(() -> new IllegalArgumentException("Book not found ID: " + purchase.getBookId()));
+
+            purchase.setFullName(student.getFullName());
+            purchase.setBookName(book.getBookName());
+        }
+
         return purchaseRepository.save(purchase);
     }
 
-    // Main Method: Fixed parameters to ensure NO null values can bypass into the database
+    @Override
     public void processPurchaseWithPayment(Long studentId, Long bookId, Double amount, String paymentId) {
-        // Strict parameters validation using if-else
         if (studentId == null || bookId == null) {
             throw new IllegalArgumentException("Process aborted: Student ID and Book ID cannot be null.");
         }
@@ -59,26 +69,22 @@ public class BookPurchaseServiceImpl implements BookPurchaseService {
             throw new IllegalArgumentException("Process aborted: Gateway payment transaction ID tracking is missing.");
         }
 
-        // 1. Verify if Student profile exists
         Optional<User> studentOpt = userRepository.findById(studentId);
         if (studentOpt.isEmpty()) {
             throw new IllegalArgumentException("Data mismatch error: No student record found for ID: " + studentId);
         }
         User student = studentOpt.get();
 
-        // 2. Verify if Book inventory entry exists
         Optional<Book> bookOpt = bookRepository.findById(bookId);
         if (bookOpt.isEmpty()) {
             throw new IllegalArgumentException("Data mismatch error: No book record found for ID: " + bookId);
         }
         Book book = bookOpt.get();
 
-        // 3. Stock Level verification check
         if (book.getAvailableQuantity() == null || book.getAvailableQuantity() <= 0) {
             throw new IllegalStateException("Inventory out of stock: The book '" + book.getBookName() + "' has no copies left.");
         }
 
-        // 4. Double purchase safeguard validation
         if (hasPurchasedSuccess(studentId, bookId)) {
             throw new IllegalStateException("Operation rejected: A successful purchase for this book already exists for student ID: " + studentId);
         }
@@ -87,14 +93,17 @@ public class BookPurchaseServiceImpl implements BookPurchaseService {
         book.setAvailableQuantity(book.getAvailableQuantity() - 1);
         bookRepository.save(book);
 
-        // 6. Map completely all properties to prevent table columns from turning NULL
         BookPurchase purchase = new BookPurchase();
         purchase.setStudentId(student.getId());
         purchase.setBookId(book.getId());
-        purchase.setAmount(amount);                  // Fixes: book_purchases.amount
-        purchase.setPaymentId(paymentId);            // Fixes: book_purchases.payment_id
+
+        purchase.setFullName(student.getFullName());
+        purchase.setBookName(book.getBookName());
+
+        purchase.setAmount(amount);
+        purchase.setPaymentId(paymentId);
         purchase.setPurchaseDate(LocalDateTime.now());
-        purchase.setStatus("SUCCESS");               // Fixes: book_purchases.status
+        purchase.setStatus("SUCCESS");
 
         purchaseRepository.save(purchase);
     }
