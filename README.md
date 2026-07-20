@@ -23,32 +23,26 @@ The Student Panel allows registered students to access library services online.
 - Secure Authentication
 
 ### 👤 Profile Management
-- View Profile
-- Edit Profile
-- Upload Profile Picture
-- Update Personal Information
+- View Profile                        - Edit Profile
+- Upload Profile Picture              - Update Personal Information
+
 
 ### 📚 Book Management
-- View All Books
-- Search Books
-- Filter Books by Category
-- View Book Details
-- Download Free Books
-- Purchase Premium Books
+- View All Books                         - Search Books
+- Filter Books by Category               - View Book Details
+- Download Free Books                    - Purchase Premium Books
 - Read Book PDFs
 
 ### 📖 Book Issue & Return
-- Request Book Issue
-- View Issued Books
-- Return Issued Books
-- View Return History
+- Request Book Issue                      - View Issued Books
+- Return Issued Books                     - View Return History
 - Book Reservation
 
 ### 💳 Payment System
-- Online Book Purchase
-- Fine Payment
-- Payment History
-- Payment Status
+- Online Book Purchase                 - Fine Payment
+
+- Payment History                      - Payment Status
+
 
 ### 💰 Fine Management
 - View Pending Fines
