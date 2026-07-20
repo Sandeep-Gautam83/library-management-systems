@@ -179,6 +179,10 @@ The Admin Panel provides complete control over the entire library.
 
 ---
 
+## Display View 
+- Dark mode
+- Light mode
+
 # 📂 Project Modules
 
 - Authentication Module
