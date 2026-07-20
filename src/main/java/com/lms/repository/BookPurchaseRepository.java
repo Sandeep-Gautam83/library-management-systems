@@ -8,6 +8,10 @@ import java.util.List;
 
 @Repository
 public interface BookPurchaseRepository extends JpaRepository<BookPurchase, Long> {
+    List<BookPurchase> findByFullNameContainingIgnoreCase(String fullName);
+
+    List<BookPurchase> findByBookNameContainingIgnoreCase(String bookName);
+
     List<BookPurchase> findByStudentId(Long studentId);
 
     List<BookPurchase> findByBookId(Long bookId);
@@ -16,4 +20,3 @@ public interface BookPurchaseRepository extends JpaRepository<BookPurchase, Long
 
     boolean existsByStudentIdAndBookIdAndStatus(Long studentId, Long bookId, String status);
 }
-
