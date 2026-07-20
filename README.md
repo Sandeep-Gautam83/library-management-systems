@@ -235,40 +235,67 @@ The Main Screen is the entry point of the Library Management System. It provides
 
 ---
 
-# 🧭 System Flow
-
 ```
-Main Screen
-      │
-      ├──────────────┐
-      │              │
-Student Login    Admin Login
-      │              │
-      ▼              ▼
-Student Dashboard   Admin Dashboard
-      │              │
-      │              ├── Student Management
-      │              ├── Book Management
-      │              ├── Issue Book
-      │              ├── Return Book
-      │              ├── Fine Management
-      │              ├── Payment Management
-      │              ├── Chat Management
-      │              ├── Notification Management
-      │              └── Reports
-      │
-      ├── View Books
-      ├── Search Books
-      ├── Issue Book
-      ├── Return Book
-      ├── Purchase Books
-      ├── Pay Fine
-      ├── Chat with Admin
-      ├── Notifications
-      └── Profile Management
+Library-Management-System/
+│
+├── .idea/                     # IntelliJ IDEA configuration
+├── .mvn/                      # Maven Wrapper
+├── logs/                      # Application log files
+├── target/                    # Compiled project (auto-generated)
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/lms/
+│   │   │       ├── config/        # Spring Configuration
+│   │   │       ├── controller/    # Controllers
+│   │   │       ├── dto/           # Data Transfer Objects
+│   │   │       ├── entity/        # JPA Entities
+│   │   │       ├── Enum/          # Enum Classes
+│   │   │       ├── exception/     # Exception Handling
+│   │   │       ├── repository/    # JPA Repositories
+│   │   │       ├── service/       # Business Logic
+│   │   │       ├── utils/         # Utility Classes
+│   │   │       └── LibraryManagementSystemApplication.java
+│   │
+│   │   ├── resources/
+│   │   │   ├── static/            # CSS, JS, Images
+│   │   │   ├── templates/         # HTML Templates
+│   │   │   └── application.properties
+│   │
+│   │   └── webapp/
+│   │       └── WEB-INF/
+│   │           └── jsp/           # JSP All class write
+│   │
+│   └── test/                      # Test Classes
+│
+├── .gitignore
+├── mvnw
+├── pom.xml                        # Maven Dependencies
+├── README.md
+└── LICENSE
 ```
 
 ---
+
+# 📦 Package Description
+
+| Package | Description |
+|---------|-------------|
+| **config** | Spring Boot configuration and security settings |
+| **controller** | Handles HTTP requests and responses |
+| **dto** | Data Transfer Objects used between layers |
+| **entity** | Database entity classes |
+| **Enum** | Enumeration classes |
+| **exception** | Global exception handling |
+| **repository** | Spring Data JPA repositories |
+| **service** | Business logic implementation |
+| **utils** | Utility/helper classes |
+| **resources/static** | CSS, JavaScript, Images |
+| **resources/templates** | HTML templates |
+| **webapp/WEB-INF/jsp** | JSP pages |
+| **application.properties** | Database and application configuration |
+| **pom.xml** | Maven project dependencies |
 
 # 🖼️ Project Screens
 
