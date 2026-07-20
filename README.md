@@ -325,6 +325,11 @@ LMS - DashBoard ( Home Page )
 2.<img width="1906" height="748" alt="image" src="https://github.com/user-attachments/assets/a3e7cb7b-908c-44b9-af18-f93efc61d5a7" />
 3.<img width="1911" height="898" alt="image" src="https://github.com/user-attachments/assets/1eccf82f-ab9b-4695-9f33-5cdb300289a8" />
 
+Register Account ( New Student Register Page ) 
+<img width="1221" height="955" alt="image" src="https://github.com/user-attachments/assets/87373006-b615-4d48-890f-9b891a4fbf6e" />
+
+Login Account ( Registered Student Login Page ) 
+<img width="919" height="948" alt="image" src="https://github.com/user-attachments/assets/c1a71690-9e80-497d-a75b-914522ff2c58" />
 
 
 **Sandeep Gautam**
