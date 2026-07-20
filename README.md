@@ -40,36 +40,27 @@ The Student Panel allows registered students to access library services online.
 
 ### 💳 Payment System
 - Online Book Purchase                 - Fine Payment
-
 - Payment History                      - Payment Status
 
 
 ### 💰 Fine Management
-- View Pending Fines
-- Fine Payment History
+- View Pending Fines                   - Fine Payment History
 - Payment Receipt
 
 ### 💬 Chat System
-- Chat with Admin
-- Send Messages
-- Receive Replies
-- Image Sharing
+- Chat with Admin                - Send Messages
+- Receive Replies                - Image Sharing
 - Chat History
 
 ### 🔔 Notifications
-- Book Approval Notifications
-- Return Reminder
-- Fine Notifications
-- Purchase Notifications
+- Book Approval Notifications      - Return Reminder
+- Purchase Notifications           - Fine Notifications
 - General Announcements
 
 ### 📊 Dashboard
-- Total Books
-- Issued Books
-- Returned Books
-- Purchased Books
-- Pending Fines
-- Recent Activities
+- Total Books            - Issued Books
+- Returned Books         - Purchased Books
+- Recent Activities       - Pending Fines
 
 ---
 
