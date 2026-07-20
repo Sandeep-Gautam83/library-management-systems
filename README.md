@@ -318,6 +318,25 @@ Register Account ( New Student Register Page )
 Login Account ( Registered Student Login Page ) 
 <img width="919" height="948" alt="image" src="https://github.com/user-attachments/assets/c1a71690-9e80-497d-a75b-914522ff2c58" />
 
+# Library Management System STUDENT CONTROL SYSTEM
+LMS - Student Dashboard ( Home Page )
+1.<img width="1088" height="915" alt="image" src="https://github.com/user-attachments/assets/efcc2e64-b311-4204-80df-b094351b5120" />
+2.<img width="1037" height="960" alt="image" src="https://github.com/user-attachments/assets/e4ba701c-8d0d-41c3-8631-0da0b216b8cc" />
+<img width="1052" height="953" alt="image" src="https://github.com/user-attachments/assets/11c54c0a-c9d6-4abf-b023-bd93d28ad72c" />
+LMS - Student Available Books
+<img width="1056" height="951" alt="image" src="https://github.com/user-attachments/assets/1d4f72a4-1043-4f48-9222-49bc68b0b557" />
+<img width="1903" height="957" alt="image" src="https://github.com/user-attachments/assets/11ae9d34-0d73-436d-b911-48a9d9b9a186" />
+LMS - Student Issued Book List
+<img width="1884" height="958" alt="image" src="https://github.com/user-attachments/assets/1f4c737c-392f-4fff-ac7a-cee5252ead14" />
+LMS - Student Chat Dashboard
+<img width="1245" height="959" alt="image" src="https://github.com/user-attachments/assets/8b899fb9-1627-488c-9cba-238896af0519" />
+LMS - AI Chat Dashboard
+<img width="1919" height="960" alt="image" src="https://github.com/user-attachments/assets/e347ed66-27dc-4738-a13c-fd1462076d6a" />
+LMS - Student Profile
+<img width="1907" height="952" alt="image" src="https://github.com/user-attachments/assets/3ea0788a-3227-4099-9e25-5fbdf61af8da" />
+LMS - Logout 
+
+
 
 **Sandeep Gautam**
 
