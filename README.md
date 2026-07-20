@@ -17,11 +17,9 @@ The Student Panel allows registered students to access library services online.
 ## Student Features
 
 ### 🔐 Authentication
-- Student Registration
-- Student Login
-- Email Verification (OTP)
-- Forgot Password
-- Change Password
+- Student Registration                - Student Login
+- Email Verification (OTP)            - Email Verification
+- Change Password                     - Forgot Password
 - Secure Authentication
 
 ### 👤 Profile Management
