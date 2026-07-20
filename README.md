@@ -320,8 +320,11 @@ Library-Management-System/
 # 👨‍💻 Author
 
 # Library Management System Screen Short Add 
-LMS - DashBoard Home 
-<img width="1899" height="924" alt="image" src="https://github.com/user-attachments/assets/e70cdb5f-f7ca-4d00-805d-8b993f330a9f" />
+LMS - DashBoard ( Home Page )
+1.<img width="1899" height="924" alt="image" src="https://github.com/user-attachments/assets/e70cdb5f-f7ca-4d00-805d-8b993f330a9f" />
+2.<img width="1906" height="748" alt="image" src="https://github.com/user-attachments/assets/a3e7cb7b-908c-44b9-af18-f93efc61d5a7" />
+3.<img width="1911" height="898" alt="image" src="https://github.com/user-attachments/assets/1eccf82f-ab9b-4695-9f33-5cdb300289a8" />
+
 
 
 **Sandeep Gautam**
